@@ -53,7 +53,7 @@ const AimsScreen = ({ navigation }) => {
                 <Text className="text-2xl font-bold text-center text-theme-amber mb-5">Стратегические цели</Text>
                 <View className="flex flex-row flex-wrap justify-between p-1">
                     {aims.map((aim, index) => (
-                        <View key={index} style={styles.containerShadow} className="block px-3 pt-3 pb-10 mb-3 w-custom-half relative bg-theme-white rounded">
+                        <View key={index} style={styles.containerShadow} className="block px-3 pt-3 pb-10 mb-3 w-custom-half relative bg-theme-white rounded z-10">
                             <Text className="text-center text-sm font-medium mb-3">{aim.text}</Text>
                             {aim.icon}
                         </View>

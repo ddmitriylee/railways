@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 
 const HeaderComponent = ({ screenName, navigation }) => {
     return(
-        <View style={styles.shadow} backgroundColor='#fefefe' className="pb-3 container z-0">
+        <View style={styles.shadow} backgroundColor='#fefefe' className="pb-3 container -z-10">
             <View className="w-5/6 flex flex-row items-center mx-auto">
                 <View className="mr-auto">
                     <Image style={styles.logo} source={require('../assets/logo.png')} />
